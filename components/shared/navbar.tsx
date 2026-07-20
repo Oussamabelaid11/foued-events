@@ -48,11 +48,11 @@ export function Navbar() {
         <nav className="container mx-auto px-4 md:px-6 flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center group">
-            <div className="relative w-12 h-12 md:w-14 md:h-14 rounded-xl overflow-hidden transition-all duration-500 group-hover:scale-105 bg-black">
+            <div className="relative w-14 h-14 md:w-16 md:h-16 transition-all duration-500 group-hover:scale-105">
               <img
-                src="/Presentation_plan_de_marketing_professionnelle_et_moderne_bleu_et_blanc.png"
-                alt="Fouad Events logo"
-                className="w-full h-full object-contain p-0.5"
+                src="/logo-gold.png"
+                alt="Foued Events logo"
+                className="w-full h-full object-contain"
               />
             </div>
           </Link>
@@ -117,8 +117,8 @@ export function Navbar() {
               className={cn('absolute top-0 bottom-0 w-[85%] max-w-sm bg-warmwhite shadow-2xl flex flex-col', isRTL ? 'left-0' : 'right-0')}
             >
               <div className="flex items-center justify-between p-6 border-b border-champagne/20">
-                <div className="w-10 h-10 rounded-lg overflow-hidden bg-black">
-                  <img src="/Presentation_plan_de_marketing_professionnelle_et_moderne_bleu_et_blanc.png" alt="Fouad Events logo" className="w-full h-full object-contain" />
+                <div className="w-12 h-12">
+                  <img src="/logo-gold.png" alt="Foued Events logo" className="w-full h-full object-contain" />
                 </div>
                 <button onClick={() => setMobileOpen(false)} className="p-2 text-charcoal hover:text-burgundy transition-colors" aria-label={t.common.close}>
                   <X className="h-6 w-6" />

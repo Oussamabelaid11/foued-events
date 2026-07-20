@@ -26,11 +26,11 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="mb-4">
-              <div className="w-20 h-20 rounded-xl overflow-hidden bg-black">
+              <div className="w-24 h-24">
                 <img
-                  src="/Presentation_plan_de_marketing_professionnelle_et_moderne_bleu_et_blanc.png"
-                  alt="Fouad Events logo"
-                  className="w-full h-full object-contain p-1"
+                  src="/logo-cream.png"
+                  alt="Foued Events logo"
+                  className="w-full h-full object-contain"
                 />
               </div>
             </div>

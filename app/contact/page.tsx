@@ -38,11 +38,23 @@ export default function ContactPage() {
     resolver: zodResolver(schema),
   });
 
+  const [submitError, setSubmitError] = useState(false);
+
   const onSubmit = async (data: FormData) => {
-    await new Promise((resolve) => setTimeout(resolve, 1200));
-    setSubmitted(true);
-    reset();
-    setTimeout(() => setSubmitted(false), 5000);
+    setSubmitError(false);
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      });
+      if (!res.ok) throw new Error('Submission failed');
+      setSubmitted(true);
+      reset();
+      setTimeout(() => setSubmitted(false), 5000);
+    } catch {
+      setSubmitError(true);
+    }
   };
 
   const whatsappUrl = `https://wa.me/${siteConfig.whatsapp}`;
@@ -199,6 +211,9 @@ export default function ContactPage() {
                         </>
                       )}
                     </button>
+                    {submitError && (
+                      <p className="text-sm text-burgundy text-center">{t.contact.form.error}</p>
+                    )}
                   </form>
                 )}
               </div>
