@@ -185,11 +185,11 @@ export default function ContactPage() {
                     <button
                       type="submit"
                       disabled={isSubmitting}
-                      className="group relative inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full bg-champagne text-warmwhite text-sm font-medium hover:bg-champagne-dark transition-all duration-500 luxury-shadow hover:luxury-shadow-lg disabled:opacity-60 w-full md:w-auto"
+                      className="group relative inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full bg-champagne text-obsidian text-sm font-medium hover:bg-champagne-dark transition-all duration-500 luxury-shadow hover:luxury-shadow-lg disabled:opacity-60 w-full md:w-auto"
                     >
                       {isSubmitting ? (
                         <>
-                          <span className="h-4 w-4 border-2 border-warmwhite/30 border-t-warmwhite rounded-full animate-spin" />
+                          <span className="h-4 w-4 border-2 border-obsidian/30 border-t-obsidian rounded-full animate-spin" />
                           {t.contact.form.sending}
                         </>
                       ) : (
@@ -217,13 +217,13 @@ export default function ContactPage() {
                 <div className="space-y-4">
                   <a href={`tel:${siteConfig.phone}`} className="flex items-center gap-4 group">
                     <span className="w-11 h-11 rounded-xl bg-champagne/10 flex items-center justify-center group-hover:bg-champagne transition-colors duration-300">
-                      <Phone className="h-5 w-5 text-champagne group-hover:text-warmwhite transition-colors duration-300" />
+                      <Phone className="h-5 w-5 text-champagne group-hover:text-obsidian transition-colors duration-300" />
                     </span>
                     <span className="text-sm text-charcoal/70 group-hover:text-champagne transition-colors" dir="ltr">{siteConfig.phoneDisplay}</span>
                   </a>
                   <a href={`mailto:${siteConfig.email}`} className="flex items-center gap-4 group">
                     <span className="w-11 h-11 rounded-xl bg-champagne/10 flex items-center justify-center group-hover:bg-champagne transition-colors duration-300">
-                      <Mail className="h-5 w-5 text-champagne group-hover:text-warmwhite transition-colors duration-300" />
+                      <Mail className="h-5 w-5 text-champagne group-hover:text-obsidian transition-colors duration-300" />
                     </span>
                     <span className="text-sm text-charcoal/70 group-hover:text-champagne transition-colors">{siteConfig.email}</span>
                   </a>

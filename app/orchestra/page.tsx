@@ -49,7 +49,7 @@ export default function OrchestraPage() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1 }}
-            className="font-serif text-4xl md:text-6xl lg:text-7xl text-charcoal leading-tight max-w-4xl mx-auto text-balance"
+            className="font-serif text-4xl md:text-6xl lg:text-7xl text-warmwhite leading-tight max-w-4xl mx-auto text-balance"
           >
             {t.orchestraPage.hero.title}
           </motion.h1>
@@ -57,7 +57,7 @@ export default function OrchestraPage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="mt-6 text-lg md:text-xl text-charcoal/70 max-w-2xl mx-auto"
+            className="mt-6 text-lg md:text-xl text-warmwhite/70 max-w-2xl mx-auto"
           >
             {t.orchestraPage.hero.subtitle}
           </motion.p>
@@ -89,8 +89,8 @@ export default function OrchestraPage() {
                 className="absolute -bottom-6 -right-6 md:-right-12 w-28 h-28 rounded-full bg-champagne flex items-center justify-center luxury-shadow-lg"
               >
                 <div className="text-center">
-                  <Music className="h-8 w-8 text-warmwhite mx-auto mb-1" />
-                  <span className="text-xs font-serif font-semibold text-warmwhite">12 Musiciens</span>
+                  <Music className="h-8 w-8 text-obsidian mx-auto mb-1" />
+                  <span className="text-xs font-serif font-semibold text-obsidian">12 Musiciens</span>
                 </div>
               </motion.div>
             </motion.div>

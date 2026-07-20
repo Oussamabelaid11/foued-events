@@ -71,7 +71,7 @@ export default function AboutPage() {
                 />
               </div>
               <div className="absolute -bottom-6 -right-6 md:-right-12 w-28 h-28 rounded-2xl bg-champagne flex items-center justify-center luxury-shadow-lg">
-                <span className="font-serif text-4xl font-bold text-warmwhite">15</span>
+                <span className="font-serif text-4xl font-bold text-obsidian">15</span>
               </div>
             </motion.div>
 
@@ -126,7 +126,7 @@ export default function AboutPage() {
                   className="group bg-warmwhite rounded-2xl p-8 border border-champagne/20 transition-all duration-500 hover:luxury-shadow hover:-translate-y-1"
                 >
                   <div className="w-14 h-14 rounded-xl bg-champagne/10 flex items-center justify-center mb-6 transition-all duration-500 group-hover:bg-champagne group-hover:scale-110">
-                    <Icon className="h-7 w-7 text-champagne transition-colors duration-500 group-hover:text-warmwhite" />
+                    <Icon className="h-7 w-7 text-champagne transition-colors duration-500 group-hover:text-obsidian" />
                   </div>
                   <h3 className="font-serif text-xl font-semibold text-charcoal mb-3">{value.title}</h3>
                   <p className="text-sm text-charcoal/60 leading-relaxed">{value.description}</p>
@@ -188,9 +188,9 @@ export default function AboutPage() {
             transition={{ duration: 0.7 }}
             className="max-w-2xl mx-auto"
           >
-            <h2 className="font-serif text-3xl md:text-4xl text-charcoal mb-6 text-balance">{t.cta.title}</h2>
-            <p className="text-charcoal/70 mb-8">{t.cta.subtitle}</p>
-            <LuxuryButton href="/contact" size="lg" variant="outline" className="border-champagne text-champagne hover:bg-champagne hover:text-warmwhite">
+            <h2 className="font-serif text-3xl md:text-4xl text-warmwhite mb-6 text-balance">{t.cta.title}</h2>
+            <p className="text-warmwhite/70 mb-8">{t.cta.subtitle}</p>
+            <LuxuryButton href="/contact" size="lg" variant="outline" className="border-champagne text-champagne hover:bg-champagne hover:text-obsidian">
               {t.cta.button}
             </LuxuryButton>
           </motion.div>

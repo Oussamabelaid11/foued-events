@@ -30,8 +30,8 @@ export const LuxuryButton = forwardRef<HTMLAnchorElement | HTMLButtonElement, Lu
     };
 
     const variantClasses = {
-      primary: 'bg-champagne text-warmwhite hover:bg-champagne-dark luxury-shadow hover:luxury-shadow-lg',
-      outline: 'border border-champagne text-charcoal hover:bg-champagne hover:text-warmwhite',
+      primary: 'bg-champagne text-obsidian hover:bg-champagne-dark luxury-shadow hover:luxury-shadow-lg',
+      outline: 'border border-champagne text-charcoal hover:bg-champagne hover:text-obsidian',
       ghost: 'text-charcoal hover:text-champagne',
       dark: 'bg-obsidian text-champagne hover:bg-obsidian-light luxury-shadow',
     };

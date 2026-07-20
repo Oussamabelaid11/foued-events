@@ -19,7 +19,7 @@ export function Stats() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center font-serif text-2xl md:text-3xl text-charcoal/90 mb-14 text-balance"
+          className="text-center font-serif text-2xl md:text-3xl text-warmwhite/90 mb-14 text-balance"
         >
           {t.stats.title}
         </motion.h2>
@@ -38,7 +38,7 @@ export function Stats() {
                 {stat.value}
               </div>
               <div className="h-px w-12 bg-champagne mx-auto mb-3" />
-              <p className="text-sm md:text-base text-charcoal/60 uppercase tracking-wide">
+              <p className="text-sm md:text-base text-warmwhite/60 uppercase tracking-wide">
                 {stat.label}
               </p>
             </motion.div>

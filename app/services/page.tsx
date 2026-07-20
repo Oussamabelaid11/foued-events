@@ -86,7 +86,7 @@ export default function ServicesPage() {
                       <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
                     </div>
                     <div className={`absolute -bottom-6 ${isReversed ? '-left-6 md:-left-12' : '-right-6 md:-right-12'} w-20 h-20 rounded-2xl bg-champagne flex items-center justify-center luxury-shadow-lg`}>
-                      <Icon className="h-9 w-9 text-warmwhite" />
+                      <Icon className="h-9 w-9 text-obsidian" />
                     </div>
                   </div>
 
@@ -165,8 +165,8 @@ export default function ServicesPage() {
             transition={{ duration: 0.7 }}
             className="max-w-2xl mx-auto"
           >
-            <h2 className="font-serif text-3xl md:text-4xl text-charcoal mb-6 text-balance">{t.cta.title}</h2>
-            <p className="text-charcoal/70 mb-8">{t.cta.subtitle}</p>
+            <h2 className="font-serif text-3xl md:text-4xl text-warmwhite mb-6 text-balance">{t.cta.title}</h2>
+            <p className="text-warmwhite/70 mb-8">{t.cta.subtitle}</p>
             <LuxuryButton href="/contact" size="lg" variant="primary" icon={<ArrowRight className={`h-5 w-5 ${isRTL ? 'rotate-180' : ''}`} />}>
               {t.cta.button}
             </LuxuryButton>

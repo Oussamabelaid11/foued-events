@@ -41,8 +41,8 @@ export function Navbar() {
         animate={{ y: 0 }}
         transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
         className={cn(
-          'fixed top-0 inset-x-0 z-50 transition-all duration-500',
-          scrolled ? 'glass shadow-md py-2' : 'bg-transparent py-4'
+          'fixed top-0 inset-x-0 z-50 transition-all duration-500 glass',
+          scrolled ? 'shadow-md py-2' : 'py-4'
         )}
       >
         <nav className="container mx-auto px-4 md:px-6 flex items-center justify-between">

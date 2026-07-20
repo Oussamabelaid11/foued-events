@@ -40,7 +40,7 @@ export function ServicesPreview() {
                 className="group relative bg-warmwhite rounded-2xl p-8 border border-champagne/20 transition-all duration-500 hover:luxury-shadow hover:border-champagne/40 hover:-translate-y-1"
               >
                 <div className="relative w-14 h-14 rounded-xl bg-champagne/10 flex items-center justify-center mb-6 transition-all duration-500 group-hover:bg-champagne group-hover:scale-110">
-                  <Icon className="h-7 w-7 text-champagne transition-colors duration-500 group-hover:text-warmwhite" />
+                  <Icon className="h-7 w-7 text-champagne transition-colors duration-500 group-hover:text-obsidian" />
                 </div>
                 <h3 className="font-serif text-xl font-semibold text-charcoal mb-3">
                   {service.title}

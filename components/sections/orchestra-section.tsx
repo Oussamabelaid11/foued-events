@@ -43,8 +43,8 @@ export function OrchestraSection() {
               className="absolute -bottom-6 -right-6 md:-right-12 w-32 h-32 rounded-full bg-champagne flex items-center justify-center luxury-shadow-lg"
             >
               <div className="text-center">
-                <Music className="h-8 w-8 text-warmwhite mx-auto mb-1" />
-                <span className="text-xs font-serif font-semibold text-warmwhite">Lahn Al Khouloud</span>
+                <Music className="h-8 w-8 text-obsidian mx-auto mb-1" />
+                <span className="text-xs font-serif font-semibold text-obsidian">Lahn Al Khouloud</span>
               </div>
             </motion.div>
           </motion.div>
@@ -62,10 +62,10 @@ export function OrchestraSection() {
                 {t.orchestra.eyebrow}
               </span>
             </div>
-            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-charcoal leading-tight mb-6 text-balance">
+            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-warmwhite leading-tight mb-6 text-balance">
               {t.orchestra.title}
             </h2>
-            <p className="text-base md:text-lg text-charcoal/70 leading-relaxed mb-8">
+            <p className="text-base md:text-lg text-warmwhite/70 leading-relaxed mb-8">
               {t.orchestra.description}
             </p>
             <ul className="space-y-3 mb-10">
@@ -81,11 +81,11 @@ export function OrchestraSection() {
                   <span className="w-6 h-6 rounded-full bg-champagne/20 flex items-center justify-center shrink-0">
                     <Check className="h-3.5 w-3.5 text-champagne" />
                   </span>
-                  <span className="text-sm md:text-base text-charcoal/80">{feature}</span>
+                  <span className="text-sm md:text-base text-warmwhite/80">{feature}</span>
                 </motion.li>
               ))}
             </ul>
-            <LuxuryButton href="/orchestra" variant="outline" className="border-champagne text-champagne hover:bg-champagne hover:text-warmwhite" icon={<ArrowRight className={`h-4 w-4 ${isRTL ? 'rotate-180' : ''}`} />}>
+            <LuxuryButton href="/orchestra" variant="outline" className="border-champagne text-champagne hover:bg-champagne hover:text-obsidian" icon={<ArrowRight className={`h-4 w-4 ${isRTL ? 'rotate-180' : ''}`} />}>
               {t.orchestra.cta}
             </LuxuryButton>
           </motion.div>

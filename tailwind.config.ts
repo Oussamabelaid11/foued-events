@@ -60,12 +60,12 @@ const config: Config = {
           '4': 'hsl(var(--chart-4))',
           '5': 'hsl(var(--chart-5))',
         },
-        // Luxury brand palette — black & gold (adapted to logo)
-        warmwhite: '#0C0C0C',
+        // Warm & friendly brand palette — ivory & gold (adapted to logo)
+        warmwhite: '#FAF6EF',
         obsidian: {
-          DEFAULT: '#0A0A0A',
-          light: '#1A1A1A',
-          dark: '#000000',
+          DEFAULT: '#2A2420',
+          light: '#3A322C',
+          dark: '#1C1712',
         },
         champagne: {
           DEFAULT: '#C9941A',
@@ -73,19 +73,19 @@ const config: Config = {
           dark: '#A07015',
         },
         beige: {
-          DEFAULT: '#161616',
-          light: '#1E1E1E',
-          dark: '#0F0F0F',
+          DEFAULT: '#F3EBDD',
+          light: '#FAF6EF',
+          dark: '#E8DCC7',
         },
         charcoal: {
-          DEFAULT: '#F0E6CC',
-          light: '#FFFFFF',
-          dark: '#D4C9B0',
+          DEFAULT: '#332D26',
+          light: '#5C5347',
+          dark: '#1F1B16',
         },
         burgundy: {
-          DEFAULT: '#E2B84B',
-          light: '#F0D080',
-          dark: '#C9941A',
+          DEFAULT: '#B5574A',
+          light: '#C97363',
+          dark: '#95443A',
         },
       },
       fontFamily: {

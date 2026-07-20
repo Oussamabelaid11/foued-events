@@ -82,7 +82,7 @@ export default function PortfolioPage() {
                 className={cn(
                   'px-5 py-2.5 rounded-full text-sm font-medium transition-all duration-300',
                   activeCategory === cat.key
-                    ? 'bg-champagne text-warmwhite luxury-shadow'
+                    ? 'bg-champagne text-obsidian luxury-shadow'
                     : 'bg-beige/50 text-charcoal/60 hover:bg-champagne/20 hover:text-burgundy'
                 )}
               >

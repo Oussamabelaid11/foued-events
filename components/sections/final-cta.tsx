@@ -40,10 +40,10 @@ export function FinalCTA() {
             </span>
             <span className="h-px w-12 bg-champagne" />
           </div>
-          <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-charcoal leading-tight mb-6 text-balance">
+          <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-warmwhite leading-tight mb-6 text-balance">
             {t.cta.title}
           </h2>
-          <p className="text-lg md:text-xl text-charcoal/70 leading-relaxed mb-10 max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl text-warmwhite/70 leading-relaxed mb-10 max-w-2xl mx-auto">
             {t.cta.subtitle}
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

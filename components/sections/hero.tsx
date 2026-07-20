@@ -40,7 +40,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
-          className="font-serif text-5xl md:text-7xl lg:text-8xl text-charcoal leading-[1.05] text-balance"
+          className="font-serif text-5xl md:text-7xl lg:text-8xl text-warmwhite leading-[1.05] text-balance"
         >
           {t.hero.title}
           <br />
@@ -51,7 +51,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5, ease: [0.22, 1, 0.36, 1] }}
-          className="mt-6 max-w-2xl mx-auto text-base md:text-lg text-charcoal/80 leading-relaxed"
+          className="mt-6 max-w-2xl mx-auto text-base md:text-lg text-warmwhite/80 leading-relaxed"
         >
           {t.hero.subtitle}
         </motion.p>
@@ -65,7 +65,7 @@ export function Hero() {
           <LuxuryButton href="/contact" size="lg" variant="primary">
             {t.hero.ctaPrimary}
           </LuxuryButton>
-          <LuxuryButton href="/portfolio" size="lg" variant="outline" className="text-charcoal border-charcoal/40 hover:bg-charcoal/10">
+          <LuxuryButton href="/portfolio" size="lg" variant="outline" className="text-warmwhite border-warmwhite/40 hover:bg-warmwhite/10">
             {t.hero.ctaSecondary}
           </LuxuryButton>
         </motion.div>
@@ -76,7 +76,7 @@ export function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.2, duration: 0.8 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-charcoal/50"
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-warmwhite/50"
       >
         <span className="text-[10px] uppercase tracking-[0.2em]">{t.hero.scroll}</span>
         <motion.div
